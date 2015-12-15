@@ -1,6 +1,23 @@
 console.log('Hello World!');
 
-// react is just view portion of mvc framework. just a view component.
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+var HelloWorld = React.createClass({
+    render: function () {
+        return (
+            React.createElement('div', {},
+                'Hello World!'
+                )
+            );
+    }
+});
+
+ReactDOM.render(
+    React.createElement(HelloWorld),
+    document.getElementById('react')
+    );
+
 
 //////////////////////////////////////
 /// WEBPACK
