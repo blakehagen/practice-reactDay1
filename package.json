@@ -1,0 +1,23 @@
+{
+  "name": "practice-react-day-1",
+  "version": "1.0.0",
+  "description": "First day of 3-day intro into ReactJS. Start in App.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blakehagen/practice-reactDay1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakehagen/practice-reactDay1/issues"
+  },
+  "homepage": "https://github.com/blakehagen/practice-reactDay1",
+  "dependencies": {
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {}
+}

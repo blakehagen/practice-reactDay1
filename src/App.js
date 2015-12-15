@@ -1,5 +1,7 @@
 console.log('Hello World!');
 
+// react is just view portion of mvc framework. just a view component.
+
 //////////////////////////////////////
 /// WEBPACK
 //////////////////////////////////////
